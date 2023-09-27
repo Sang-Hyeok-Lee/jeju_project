@@ -1,8 +1,8 @@
 # Jeju_project
 
 ## 프로젝트 설명
+- 인원 : 김하은, 김하정, 상민규, 심영은, 이상혁, 조환희
 - 언어 : python, google colab
-- 인원 : 6명 (팀장 : 본인, 팀원 5명)
 - 기간 : 2023.09.06 - 2023.09.26
 - 주요내용
   + 제주 관광 공사에 제안서를 만드는 것을 최종 목표로 삼음.
@@ -16,12 +16,12 @@
 - 역할
   + ~~주제가 갈아엎어져 역할 재분담 필요. 확정시 수정 예정.(23.09.08)~~
   + 현재 각 파트당 역할을 분담함.
-    + 날씨 파트 >> 인기 관광지 파트로 변경됨(23.09.13) : Sang-Hyeok-Lee(https://github.com/Sang-Hyeok-Lee), SangMingyu(https://github.com/SangMingyu)
-    + 만족도 조사(23.09.19) : Sang-Hyeok-Lee(https://github.com/Sang-Hyeok-Lee)
+    + 날씨 파트 축소 >> 인기 관광지 파트 진행 (23.09.13) : Sang-Hyeok-Lee(https://github.com/Sang-Hyeok-Lee), SangMingyu(https://github.com/SangMingyu)
+    + 만족도 조사(23.09.19) : Sang-Hyeok-Lee
     + PPT : SangMingyu(https://github.com/SangMingyu)
     + 성수기/비성수기 파트 : Ezraelyes(https://github.com/Ezraelyes), HWANHEECHO(https://github.com/HWANHEECHO)
     + streamlit : HWANHEECHO(https://github.com/HWANHEECHO)
-    + 물가 파트 : HaJeong-K(본인), Grace Kim(https://github.com/haeunkim48)
+    + 물가 파트 : HaJeong-K(https://gitjub.com/HaJeong-K, Grace Kim(https://github.com/haeunkim48)
     
  
 
