@@ -2,7 +2,7 @@
 
 ## 프로젝트 설명
 - 언어 : python, google colab
-- 인원 : 6명 (팀장 : 본인, 팀원 5명)
+- 인원 : 6명 (김하은, 김하정, 상민규, 심영은, 이상혁, 조환희)
 - 기간 : 2023.09.06 - 2023.09.26
 - 주요내용
   + 제주 관광 공사에 제안서를 만드는 것을 최종 목표로 삼음.
@@ -16,12 +16,12 @@
 - 역할
   + ~~주제가 갈아엎어져 역할 재분담 필요. 확정시 수정 예정.(23.09.08)~~
   + 현재 각 파트당 역할을 분담함.
-    + 날씨 파트 >> 인기 관광지 파트로 변경됨(23.09.13) : Sang-Hyeok-Lee(https://github.com/Sang-Hyeok-Lee), SangMingyu(https://github.com/SangMingyu)
-    + 만족도 조사(23.09.19) : Sang-Hyeok-Lee(https://github.com/Sang-Hyeok-Lee)
-    + PPT : SangMingyu(https://github.com/SangMingyu), HaJeong-K(본인)
+    + 날씨 파트 >> 인기 관광지 파트로 변경됨(23.09.13) : Sang-Hyeok-Lee, SangMingyu(https://github.com/SangMingyu)
+    + 만족도 조사(23.09.19) : Sang-Hyeok-Lee
+    + PPT : SangMingyu(https://github.com/SangMingyu), HaJeong-K([본인](https://HaJeong-K))
     + 성수기/비성수기 파트 : Ezraelyes(https://github.com/Ezraelyes), HWANHEECHO(https://github.com/HWANHEECHO)
     + streamlit : HWANHEECHO(https://github.com/HWANHEECHO)
-    + 물가 파트 : HaJeong-K(본인), Grace Kim(https://github.com/haeunkim48)
+    + 물가 파트 : HaJeong-K(https://HaJeong-K), Grace Kim(https://github.com/haeunkim48)
  
 ## 주제 변천사
 ### 선택한 대주제 : 국민 여행조사 데이터를 활용한 여행 유형 분류
@@ -56,9 +56,15 @@
   + 2022년의 데이터가 없어서 이 부분의 값을 추정해 추이를 보는 것으로 사용.
   + 원 주제에서는 사용할 생각이 없었으나, 주제가 거듭 변경이 되면서 최종적으로 예측을 사용함.
   + 머신러닝 sklearn의 train_test_split 사용.
-
+- 요인 분석 사용.
+  + 제주의 물가가 여행 경비 만족도에 영향을 미치는지 여부를 알기 위해 요인분석 실행.
+  + Factor Analyzer 사용
+- 클러스터링
+  + 물가가 여행 간 불만족을 주는 주된 요인으로서 나타났던 데이터를 알아보고, 여행 간 불만족점을 특징별로 군집화
+  + 변수에 PCA 실행해 2차원 값을 할당, KMeans 클러스터링을 통해 군집화
+    
 ## 최종 발표용 ppt
-https://github.com/HaJeong-K/Jeju_project/blob/main/4%EC%A1%B0%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf
+https://github.com/Sang-Hyeok-Lee/jeju_project/blob/main/jeju_project.pdf
 
 ## 배포용 스트림릿 페이지
 > 스트림릿에 사용된 데이터들이 너무 많아 렌더링이 오래걸림.
@@ -69,8 +75,6 @@ https://github.com/HaJeong-K/Jeju_project/blob/main/4%EC%A1%B0%20%EB%B0%9C%ED%91
 
 https://jejuproject-mcyzdrar8vbzfezenliblp.streamlit.app/
 
-## 프로젝트 로드맵
-![깃헙 업로드용](https://github.com/HaJeong-K/Jeju_project/assets/91309266/6653c7f1-3034-4e7b-8d58-73a7f1f74625)
 
 ## 개발 로그 기록
 - ~~데이터 수집 이후 시작할 예정.(23.09.08)~~
